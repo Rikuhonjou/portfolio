@@ -13,7 +13,7 @@ FPS_Chess
 - Blender
 
 ## デモ
-（スクリーンショットやGIF、デプロイ先のURL）
+![スクリーンショット](./img/スクリーンショット_2025-06-09_212909.png)
 
 ## セットアップ方法
 git clone https://github.com/yourname/project-name.git
