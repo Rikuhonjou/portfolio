@@ -13,7 +13,9 @@ FPS_Chess
 - Blender
 
 ## デモ
-![スクリーンショット](./img/スクリーンショット_2025-06-09_212909.png)
+![FPSChess_Debug](./img/Chess_Debug.png)
+![FPSChess_play1](./img/Chess_play1.png)
+![FPSChess_play2](./img/Chess_play2.png)
 
 ## セットアップ方法
 git clone https://github.com/yourname/project-name.git
