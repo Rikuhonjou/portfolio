@@ -18,7 +18,7 @@ FPS_Chess
 ![FPSChess_play2](./img/Chess_play2.png)
 
 ## 開発GitのURL
-git clone https://github.com/ho6ho6/ho66Games_FPSChess.git
+git https://github.com/ho6ho6/ho66Games_FPSChess.git
 
-##UnityRoomでも公開しています
+## UnityRoomでも公開しています
 https://unityroom.com/games/ho66games_fpschess
