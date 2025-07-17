@@ -17,5 +17,8 @@ FPS_Chess
 ![FPSChess_play1](./img/Chess_play1.png)
 ![FPSChess_play2](./img/Chess_play2.png)
 
-## セットアップ方法
-git clone https://github.com/yourname/project-name.git
+## 開発GitのURL
+git clone https://github.com/ho6ho6/ho66Games_FPSChess.git
+
+##UnityRoomでも公開しています
+https://unityroom.com/games/ho66games_fpschess
