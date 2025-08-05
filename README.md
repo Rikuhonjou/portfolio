@@ -3,6 +3,28 @@
 ---
 ---
 
+# ミニゲームエンジン (C++ / Win32 API)
+
+## 概要
+UnityやUnreal Engine、Godotのようなゲームエンジンを目標に自作ゲームエンジンを作成中。
+基本は Win32 API を使い、現状はWindows用に構築。
+
+## 実際の画面
+
+### 現状-フレーム数と描画確認
+![ゲームエンジン](./img/minigame_engine1.png)
+
+## 今後の予定
+- UnityのEditor Windowを作成
+- Assetsなどのリソース読み込みを作成
+- ゲームファイルを.exeで出力できるようにする
+
+## 開発Git
+[minigame_engine](https://github.com/ho6ho6/minigame_engine)
+
+
+---
+---
 # Hit & Blow (C++ / Win32 API)
 
 ## 概要
