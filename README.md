@@ -2,37 +2,12 @@
 
 ---
 ## 取り組んでいるプログラミング作品への開発Git
-C++とWin32を使ってミニゲームエンジン : [minigame_engine](https://github.com/ho6ho6/minigame_engine) </br>
 C++とWni32でHit & Blow : [Cpp_WindowGame](https://github.com/ho6ho6/Cpp_WindowGame) </br>
+C++とWin32を使ってミニゲームエンジン : [minigame_engine](https://github.com/ho6ho6/minigame_engine) </br>
 Unityで一人称チェス : [ho66Games_FPSChess](https://github.com/ho6ho6/ho66Games_FPSChess.git)
 ---
 ---
 
-# ミニゲームエンジン (C++ / Win32 API)
-
-## 概要
-UnityやUnreal Engine、Godotのようなゲームエンジンを目標にし、ソースコードを書かないゲームエンジンを作成中。</br>
-予め、オブジェクトには各キーやマウスを設定しておき、ユーザーはチェックを入れどのキーに対応させるかを考えるだけで良いものにする。</br>
-その他パラメータはAdd_Componentから追加し、数値を入力するだけのものにする。</br>
-基本は Win32 API を使い、現状はWindows用に構築。
-
-
-## 実際の画面
-
-### 現状-フレーム数と描画確認
-![ゲームエンジン](./img/minigame_engine1.png)
-
-## 今後の予定
-- 各サブウィンドウ(game_scene, input_scene)等の制作
-- Assetsの読み込み
-- ゲームファイルを.exeで出力できるようにする
-
-## 開発Git
-[minigame_engine](https://github.com/ho6ho6/minigame_engine)
-
-
----
----
 # Hit & Blow (C++ / Win32 API)
 
 ## 概要
@@ -67,6 +42,30 @@ UnityやUnreal Engine、Godotのようなゲームエンジンを目標にし、
 
 ## 開発GitのURL
 [Cpp_WindowGame](https://github.com/ho6ho6/Cpp_WindowGame)
+
+---
+---
+# ミニゲームエンジン (C++ / Win32 API)
+
+## 概要
+UnityやUnreal Engine、Godotのようなゲームエンジンを目標にし、ソースコードを書かないゲームエンジンを作成中。</br>
+予め、オブジェクトには各キーやマウスを設定しておき、ユーザーはチェックを入れどのキーに対応させるかを考えるだけで良いものにする。</br>
+その他パラメータはAdd_Componentから追加し、数値を入力するだけのものにする。</br>
+基本は Win32 API を使い、現状はWindows用に構築。
+
+
+## 実際の画面
+
+### 現状-フレーム数と描画確認
+![ゲームエンジン](./img/minigame_engine1.png)
+
+## 今後の予定
+- 各サブウィンドウ(game_scene, input_scene)等の制作
+- Assetsの読み込み
+- ゲームファイルを.exeで出力できるようにする
+
+## 開発Git
+[minigame_engine](https://github.com/ho6ho6/minigame_engine)
 
 ---
 ---
