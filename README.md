@@ -128,14 +128,22 @@ UnityRoomで公開中。チェスのルールとFPS操作を融合した新感�
 ---
 ---
 
-## 過去に作成したキャラクタや2Dグラフィックス,Blender
-- 2Dシューティングゲームに使用したAssets
+## 過去に作成したキャラクタや2D・3Dグラフィックス
+# 2Dシューティングゲームに使用したAssets
 ![2DGR](./img/design/stage1_道中.png)
 ![2DGR](./img/design/stage3_2.png)
 
-- 自キャラ・敵キャラ </br> 
+# 自キャラ・敵キャラ </br> 
 ![2DGR](./img/design/自機.png)
 ![2DGR](./img/design/敵弾.png)
+
+# 3Dグラフィックス
+![3DGR](./img/design/liminal_world_pool.png)
+![3DGR](./img/design/liminal_world_space.png)
+![3DGR](./img/design/liminal_world_wheat.png)
+
+---
+---
 
 ## その他
 - GUIやゲームロジックを構築することが好きです。
