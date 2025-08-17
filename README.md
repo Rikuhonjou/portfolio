@@ -104,6 +104,11 @@ UnityRoomで公開中。チェスのルールとFPS操作を融合した新感�
 - 駒のスキル演出強化（エフェクト、SE）
 - ターン制のUI改善とチュートリアル追加
 
+## 作成した音源
+[🎵 title.mp3 を聴く](./sound/タイトルBGM.mp3) </br>
+[🎵 game.mp3 を聴く](./sound/対戦BGM.mp3) </br>
+[🎵 result.mp3 を聴く](./sound/結果画面.mp3) </br>
+
 ## 開発GitのURL
 [ho66Games_FPSChess](https://github.com/ho6ho6/ho66Games_FPSChess.git)
 
