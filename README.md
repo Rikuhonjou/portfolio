@@ -6,8 +6,11 @@
 # ミニゲームエンジン (C++ / Win32 API)
 
 ## 概要
-UnityやUnreal Engine、Godotのようなゲームエンジンを目標に自作ゲームエンジンを作成中。
+UnityやUnreal Engine、Godotのようなゲームエンジンを目標にし、ソースコードを書かないゲームエンジンを作成中。
+予め、オブジェクトには各キーやマウスを設定しておき、ユーザーはチェックを入れどのキーに対応させるかを考えるだけで良いものにする。
+その他パラメータはAdd_Componentから追加し、数値を入力するだけのものにする。
 基本は Win32 API を使い、現状はWindows用に構築。
+
 
 ## 実際の画面
 
@@ -15,8 +18,8 @@ UnityやUnreal Engine、Godotのようなゲームエンジンを目標に自作
 ![ゲームエンジン](./img/minigame_engine1.png)
 
 ## 今後の予定
-- UnityのEditor Windowを作成
-- Assetsなどのリソース読み込みを作成
+- 各サブウィンドウ(game_scene, input_scene)等の制作
+- Assetsの読み込み
 - ゲームファイルを.exeで出力できるようにする
 
 ## 開発Git
