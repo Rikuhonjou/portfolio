@@ -45,7 +45,7 @@ Unityで一人称チェス : [ho66Games_FPSChess](https://github.com/ho6ho6/ho66
 
 ---
 ---
-# ミニゲームエンジン (C++ / Win32 API)
+# ミニゲームエンジン (C++ / Win32 API / DirectX11 / ImGui)
 
 ## 概要
 UnityやUnreal Engine、Godotのようなゲームエンジンを目標にし、ソースコードを書かないゲームエンジンを作成中。</br>
