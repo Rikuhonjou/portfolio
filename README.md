@@ -11,7 +11,7 @@ Unityで一人称チェス : [ho66Games_FPSChess](https://github.com/ho6ho6/ho66
 # Hit & Blow (C++ / Win32 API)
 
 ## 概要
-4桁の数字を推理する脳トレゲーム。GUIは Windows API を用いて自作。
+4桁の数字を推理する脳トレゲーム。GUIは Windows API を用いて自作。</br>
 入力欄、決定ボタン、履歴表示などを全て Win32 API で構築。
 
 ## 実際の画面
@@ -73,7 +73,7 @@ UnityやUnreal Engine、Godotのようなゲームエンジンを目標にし、
 # FPS_Chess (Unity)
 
 ## 概要
-チェスの駒をFPS視点で操作するアクション×戦略ゲーム。  
+チェスの駒をFPS視点で操作するアクション×戦略ゲーム。  </br>
 UnityRoomで公開中。チェスのルールとFPS操作を融合した新感覚ゲーム。
 
 ## 実際の画面
