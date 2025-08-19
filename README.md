@@ -129,17 +129,22 @@ UnityRoomで公開中。チェスのルールとFPS操作を融合した新感�
 ---
 
 ## 過去に作成したキャラクタや2D・3Dグラフィックス
-# 2Dシューティングゲームに使用したAssets
+### 2Dシューティングゲームに作成したAssets (グラディウスを参考にして作成しました)
+1. 星間飛行 </br>
 ![2DGR](./img/design/stage1_道中.png)
+2. 敵の本拠地 </br>
 ![2DGR](./img/design/stage3_2.png)
 
-# 自キャラ・敵キャラ </br> 
+### 自キャラ・敵キャラ </br> 
 ![2DGR](./img/design/自機.png)
 ![2DGR](./img/design/敵弾.png)
 
-# 3Dグラフィックス
+### 3Dグラフィックス (リミナルスペースと呼ばれる空間のモデリングを中心に行っています) </br>
+1. プール空間 </br>
 ![3DGR](./img/design/liminal_world_pool.png)
+2. 子供部屋 </br>
 ![3DGR](./img/design/liminal_world_space.png)
+3. 曇り空の夜 </br>
 ![3DGR](./img/design/liminal_world_wheat.png)
 
 ---
