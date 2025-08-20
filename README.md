@@ -56,8 +56,9 @@ UnityやUnreal Engine、Godotのようなゲームエンジンを目標にし、
 
 ## 実際の画面
 
-### 現状-フレーム数と描画確認
-![ゲームエンジン](./img/minigame_engine1.png)
+### 現状-メインウィンドウ(minigame_engine)とImGuiを用いたサブウィンドウ(window_scene)の生成
+- 左側の黒い部分がwindow_scene(後々、カーソルを用いてウィンドウサイズ変更を可能にする)
+![ゲームエンジン](./img/minigame_engine2.png)
 
 ## 今後の予定
 - 各サブウィンドウ(game_scene, input_scene)等の制作
