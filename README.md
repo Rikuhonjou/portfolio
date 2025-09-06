@@ -56,13 +56,11 @@ UnityやUnreal Engine、Godotのようなゲームエンジンを目標にし、
 
 ## 実際の画面
 
-### 現状-メインウィンドウ(minigame_engine)とImGuiを用いたサブウィンドウ(window_scene)の生成
-- 左側の黒い部分がwindow_scene(後々、カーソルを用いてウィンドウサイズ変更を可能にする)
-![ゲームエンジン](./img/minigame_engine2.png)
+### 現状-読み込んだテクスチャをsceneウィンドウ上に配置し、gameウィンドウ(プレイヤーが見るウィンドウ)にsceneウィンドウの内容を表示する
+![ゲームエンジン](./img/minigame_engine4.png)
 
 ## 今後の予定
-- 各サブウィンドウ(game_scene, input_scene)等の制作
-- Assetsの読み込み
+- sceneウィンドウ上にオブジェクトを配置させ、gameウィンドウにsceneウィンドウの内容を映す
 - ゲームファイルを.exeで出力できるようにする
 
 ## 開発Git
