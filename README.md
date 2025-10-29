@@ -8,6 +8,30 @@ Unityで一人称チェス : [ho66Games_FPSChess](https://github.com/ho6ho6/ho66
 ---
 ---
 
+# ミニゲームエンジン (C++ / Win32 API / DirectX11 / ImGui)
+
+## 概要
+UnityやUnreal Engine、Godotのようなゲームエンジンを目標にし、ソースコードを書かないゲームエンジンを作成中。</br>
+予め、オブジェクトには各キーやマウスを設定しておき、ユーザーはチェックを入れどのキーに対応させるかを考えるだけで良いものにする。</br>
+その他パラメータはAdd_Componentから追加し、数値を入力するだけのものにする。</br>
+基本は Win32 API を使い、現状はWindows用に構築。
+
+
+## 実際の画面
+
+### 現状-sceneウィンドウに描画は出来ていないが、配置は出来ている。任意の場所に座標と合わせて描画と配置を行えるようにしている
+![ゲームエンジン](./img/minigame_engine5.png)
+
+## 今後の予定
+- 描画はされていないが、scene上に配置は出来ているため、Assetの描画と座標を座標に揃えれるようにする
+- ゲームファイルを.exeで出力できるようにする
+
+## 開発Git
+[minigame_engine](https://github.com/ho6ho6/minigame_engine)
+
+---
+---
+
 # Hit & Blow (C++ / Win32 API)
 
 ## 概要
@@ -42,29 +66,6 @@ Unityで一人称チェス : [ho66Games_FPSChess](https://github.com/ho6ho6/ho66
 
 ## 開発GitのURL
 [Cpp_WindowGame](https://github.com/ho6ho6/Cpp_WindowGame)
-
----
----
-# ミニゲームエンジン (C++ / Win32 API / DirectX11 / ImGui)
-
-## 概要
-UnityやUnreal Engine、Godotのようなゲームエンジンを目標にし、ソースコードを書かないゲームエンジンを作成中。</br>
-予め、オブジェクトには各キーやマウスを設定しておき、ユーザーはチェックを入れどのキーに対応させるかを考えるだけで良いものにする。</br>
-その他パラメータはAdd_Componentから追加し、数値を入力するだけのものにする。</br>
-基本は Win32 API を使い、現状はWindows用に構築。
-
-
-## 実際の画面
-
-### 現状-読み込んだテクスチャをsceneウィンドウ上に配置し、gameウィンドウ(プレイヤーが見るウィンドウ)にsceneウィンドウの内容を表示する
-![ゲームエンジン](./img/minigame_engine4.png)
-
-## 今後の予定
-- sceneウィンドウ上にオブジェクトを配置させ、gameウィンドウにsceneウィンドウの内容を映す
-- ゲームファイルを.exeで出力できるようにする
-
-## 開発Git
-[minigame_engine](https://github.com/ho6ho6/minigame_engine)
 
 ---
 ---
