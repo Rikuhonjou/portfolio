@@ -19,7 +19,7 @@ UnityやUnreal Engine、Godotのようなゲームエンジンを目標にし、
 ## 実際の画面
 
 ### 現状-主要Component機能を実装し、Key割り当ての対応を実装した。
-![ゲームエンジン](./img/minigame_engine10.gif)
+![ゲームエンジン](./img/minigame_engine10.png)
 
 ## 今後の予定
 - 各Component機能を実装し、細かい不具合の修正を行う。</br>
