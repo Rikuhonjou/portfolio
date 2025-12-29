@@ -2,7 +2,6 @@
 
 ---
 ## 取り組んでいるプログラミング作品への開発Git
-C++とWni32でHit & Blow : [Cpp_WindowGame](https://github.com/ho6ho6/Cpp_WindowGame) </br>
 C++とWin32を使ってミニゲームエンジン : [minigame_engine](https://github.com/ho6ho6/minigame_engine) </br>
 Unityで一人称チェス : [ho66Games_FPSChess](https://github.com/ho6ho6/ho66Games_FPSChess.git)
 ---
@@ -19,54 +18,15 @@ UnityやUnreal Engine、Godotのようなゲームエンジンを目標にし、
 
 ## 実際の画面
 
-### 現状-アセットオブジェクトの座標処理と、sceneの座標処理の統一を行った。
-### 加えて、配置されたアセットの個別処理(選択/位置調整/削除)を実装した。</br>
-![ゲームエンジン](./img/minigame_engine7.gif)
+### 現状-主要Component機能を実装し、Key割り当ての対応を実装した。
+![ゲームエンジン](./img/minigame_engine10.gif)
 
 ## 今後の予定
-- ヒエラルキーウィンドウにsceneに配置されたアセットオブジェクトの追加を行う。
-- ゲームウィンドウにはsceneウィンドウの描画されている部分のみを抽出し、投影を行う。
+- 各Component機能を実装し、細かい不具合の修正を行う。</br>
+- ゲームをビルドした際に、実際のゲーム画面となるwindow_gameを実装する。</br>
 
 ## 開発Git
 [minigame_engine](https://github.com/ho6ho6/minigame_engine)
-
----
----
-
-# Hit & Blow (C++ / Win32 API)
-
-## 概要
-4桁の数字を推理する脳トレゲーム。GUIは Windows API を用いて自作。</br>
-入力欄、決定ボタン、履歴表示などを全て Win32 API で構築。
-
-## 実際の画面
-
-### ゲーム開始画面
-![HIT_BLOW](./img/game.png)
-
-### 数字を入れて値を考察する画面
-![HIT_BLOW](./img/play.png)
-
-### クリアタイム表示画面
-![HIT_BLOW](./img/time.png)
-
-### 入力欄に数字が足りない画面
-![HIT_BLOW](./img/error.png)
-
-
-## 技術ポイント
-- C++17 + Win32 API による GUI構築（Edit, Button, ListBox）
-- 入力制限(ES_SETLIMITTEXT)で1桁のみ、数字以外を拒否し後の処理を簡単に
-- ヒット＆ブロー判定アルゴリズム(重複数字対応)
-- std::chronoによるプレイ時間計測と表示
-- 入力のバリデーションと履歴の動的更新
-
-## 今後の改善案
-- 難易度選択を可能
-- マウスだけで操作
-
-## 開発GitのURL
-[Cpp_WindowGame](https://github.com/ho6ho6/Cpp_WindowGame)
 
 ---
 ---
@@ -124,7 +84,6 @@ UnityRoomで公開中。チェスのルールとFPS操作を融合した新感�
 - C++ (Win32 API)
 - C#  (Unity, ゲームロジック, UI制御)
 - Git / GitHub (ブランチ管理/README整備)
-- Python
 
 ---
 ---
