@@ -13,8 +13,11 @@ Unityで一人称チェス : [ho66Games_FPSChess](https://github.com/ho6ho6/ho66
 Unityを目標にした、ソースコードを書かないゲームエンジンを作成中。</br>
 予め、オブジェクトには各キーやマウスを設定しておき、ユーザーはチェックを入れどのキーに対応させるかを考えるだけで良いものにする。</br>
 任意のオブジェクトにComponentを追加し、数値を入力するだけでキー入力やフラグなどの操作が可能になっている。</br>
-基本は Win32 API を使い、現状はWindows用に構築。
-
+基本は Win32 API を使い、現状はWindows用に構築しています。<br>
+多くの人が直感的に操作できることを重視しているため、想定動作環境は </br>
+CPU:AMD Athlon Shilver 3050U with Radeon Graphics </br>
+メモリ:8.0GB </br>
+GPU:AMD Radeon(TM) Graphics (CPUに内臓されているものを想定)</br>
 
 ## 実際の画面
 
