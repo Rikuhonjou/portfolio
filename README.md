@@ -3,7 +3,7 @@
 ---
 ## 取り組んでいるプログラミング作品への開発Git
 C++とWin32を使ってミニゲームエンジン : [minigame_engine](https://github.com/ho6ho6/minigame_engine) </br>
-Unityで一人称チェス : [ho66Games_FPSChess](https://github.com/ho6ho6/ho66Games_FPSChess.git)
+Unityで一人称チェス : [ho66Games_FPSChess](https://github.com/ho6ho6/Chess_FistPerson) </br>
 ---
 ---
 
