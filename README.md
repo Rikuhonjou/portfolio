@@ -65,8 +65,7 @@ UnityRoomで公開中。チェスのルールとFPS操作を融合した新感�
 
 ## 今後の改善案
 - マルチプレイ対応（Photonなど）
-- 駒のスキル演出強化（エフェクト、SE）
-- ターン制のUI改善とチュートリアル追加
+- UIの華やかさを追加を検討
 
 ## 作成した音源
 [🎵 title.mp3 を聴く](./sound/タイトルBGM.mp3) </br>
@@ -74,9 +73,12 @@ UnityRoomで公開中。チェスのルールとFPS操作を融合した新感�
 [🎵 result.mp3 を聴く](./sound/結果画面.mp3) </br>
 
 ## 開発GitのURL
-[ho66Games_FPSChess](https://github.com/ho6ho6/ho66Games_FPSChess.git)
+[ho66Games_FPSChess](https://github.com/ho6ho6/Chess_FistPerson)
 
 ## UnityRoom
+[注意] 作り直した一人称チェスではUnity6で作成していたため、Buildの際にWeb GLが非対応になっており </br>
+アップデートができず、旧作の一人称チェスになっております。 </br>
+Unity 2022年のもので再度作り、Webでも遊べるように現在は、取り組んでいます。 </br>
 [FPS_Chess](https://unityroom.com/games/ho66games_fpschess)
 
 ---
