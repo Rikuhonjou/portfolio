@@ -2,8 +2,15 @@
 
 ---
 ## 取り組んでいるプログラミング作品への開発Git
-C++とWin32を使ってミニゲームエンジン : [minigame_engine](https://github.com/ho6ho6/minigame_engine) </br>
-Unityで一人称チェス : [ho66Games_FPSChess](https://github.com/ho6ho6/Chess_FistPerson) </br>
+### C++とWin32を使ってミニゲームエンジン : [minigame_engine](https://github.com/ho6ho6/minigame_engine) </br>
+[ミニゲームエンジンの解説動画]https://youtu.be/hTtWyzAT5uM </br>
+[ミニゲームエンジン内容確認動画]https://youtu.be/BEkCKfG-fzU </br>
+</br>
+
+### Unityで一人称チェス : [ho66Games_FPSChess](https://github.com/ho6ho6/Chess_FistPerson) </br>
+[一人称チェスゲーム内容確認動画]https://youtu.be/s0ZbeJykjSQ </br>
+[一人称チェス作品解説動画]https://youtu.be/TX8dBKSlUoM </br>
+
 ---
 ---
 
