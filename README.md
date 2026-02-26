@@ -103,6 +103,7 @@ Unity 2022年のもので再度作り、Webでも遊べるように現在は、�
 ![2DGR](./img/design/敵弾.png)
 
 ## 3Dグラフィックス (リミナルスペースと呼ばれる空間のモデリングを中心に行っています) </br>
+### Blender
 1. プール空間 </br>
 ![3DGR](./img/design/liminal_world_pool.png)
 2. 子供部屋 </br>
@@ -110,6 +111,8 @@ Unity 2022年のもので再度作り、Webでも遊べるように現在は、�
 3. 曇り空の夜 </br>
 ![3DGR](./img/design/liminal_world_wheat.png)
 
+### DirectX12
+制作中
 ---
 ---
 
