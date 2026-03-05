@@ -17,14 +17,87 @@
 # ミニゲームエンジン (C++ / Win32 API / DirectX11 / ImGui)
 
 ## 概要
-Unityを目標にした、ソースコードを書かないゲームエンジンを作成中。</br>
-予め、オブジェクトには各キーやマウスを設定しておき、ユーザーはチェックを入れどのキーに対応させるかを考えるだけで良いものにする。</br>
-任意のオブジェクトにComponentを追加し、数値を入力するだけでキー入力やフラグなどの操作が可能になっている。</br>
-基本は Win32 API を使い、現状はWindows用に構築しています。<br>
-多くの人が直感的に操作できることを重視しているため、想定動作環境は </br>
-CPU:AMD Athlon Shilver 3050U with Radeon Graphics </br>
-メモリ:8.0GB </br>
-GPU:AMD Radeon(TM) Graphics (CPUに内臓されているものを想定)</br>
+本プロジェクトは DirectX11 と C++ を用いて開発した 2D ミニゲームエンジンです。</br>
+ゲーム開発の内部構造を理解することを目的として、エディタ機能・描画・ECSアーキテクチャを実装しました。</br>
+エンジンには以下のエディタ機能を実装しています。</br>
+- Gameビュー
+- Hierarchy
+- Inspector
+- Assetブラウザ
+- Sceneビュー
+Unityのようにオブジェクトをエディタ上で配置・編集できる環境を目標に開発しました。</br>
+
+### エディタ機能
+
+#### Hierarchy
+Hierarchyではシーン内の Entity（オブジェクト）一覧を表示します。</br>
+主な機能</br>
+- オブジェクト一覧表示
+- 選択
+エディタ上で選択されたオブジェクトはInspectorに反映されます。</br>
+
+#### Inspector
+Inspectorでは Entityに付属するComponent(Transform,Sprite,Collider など)の情報を表示・編集できます。</br>
+Componentのパラメータを変更すると、ゲーム内のオブジェクトに即時反映されます。</br>
+
+#### Assetブラウザ
+プロジェクトフォルダ内のアセットを表示します。</br>
+特徴</br>
+- フォルダ内のアセットを非同期で読み込み
+- 読み込み中でもエディタ操作を継続可能
+これにより、大量のアセットがある場合でも</br>
+エディタのフリーズを防ぐ設計になっています。</br>
+
+#### Sceneビュー
+Sceneビューでは ゲームオブジェクトの配置やレイアウト編集を行います。</br>
+現在のエンジンでは</br>
+- 背景配置
+- 地形配置
+- オブジェクト配置
+などが可能です。</br>
+
+#### ECSアーキテクチャ
+本エンジンではECS（Entity Component System）を採用しています。</br>
+- Entity:IDのみを持つオブジェクト。
+- Component:Entityに付与されるデータ。
+Transform,Sprite,Physics
+- System,Componentを処理するロジック。
+RenderSystem,MovementSystem </br>
+
+この構造によりデータとロジックの分離拡張性の向上を実現しています。</br>
+
+#### 描画システム
+描画には DirectX11 を使用しています。</br>
+Sprite描画は</br>
+- VertexBuffer
+- Shader
+- Texture
+を使用して実装しています。</br>
+
+基本的な描画フロー</br>
+Update</br>
+ ↓</br>
+RenderSystem</br>
+ ↓</br>
+Sprite描画</br>
+ ↓</br>
+Present</br>
+
+#### 現状
+現時点で以下の機能を実装しています。</br>
+- Sprite描画
+- オブジェクト配置
+- ECSベースのComponent管理
+- エディタUI
+- アセットブラウザ
+- 非同期アセット読み込み
+
+これにより簡単な2Dゲームのステージ作成が可能です。</br>
+
+#### 技術的な工夫
+- ECSによる拡張性のある設計
+- アセット読み込みの非同期化
+- エディタとゲームロジックの分離
 
 ## 実際の画面
 
