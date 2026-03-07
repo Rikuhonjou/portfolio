@@ -27,6 +27,12 @@
 - Sceneビュー
 Unityのようにオブジェクトをエディタ上で配置・編集できる環境を目標に開発しました。</br>
 
+## 実際の画面
+
+### 現状-主要Component機能を実装し、Key割り当ての対応を実装した。
+![ゲームエンジン](./img/minigame_engine/minigame_engine10.png)
+
+
 ### エディタ機能
 
 #### Hierarchy
@@ -99,10 +105,6 @@ Present</br>
 - アセット読み込みの非同期化
 - エディタとゲームロジックの分離
 
-## 実際の画面
-
-### 現状-主要Component機能を実装し、Key割り当ての対応を実装した。
-![ゲームエンジン](./img/minigame_engine/minigame_engine10.png)
 
 ## 今後の予定
 - 各Component機能を実装し、細かい不具合の修正を行う。</br>
