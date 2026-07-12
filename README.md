@@ -1,167 +1,32 @@
 # ポートフォリオ
 
 ---
-## 取り組んでいるプログラミング作品への開発Git
-### C++とWin32を使ってミニゲームエンジン : [minigame_engine](https://github.com/ho6ho6/minigame_engine) </br>
-[ミニゲームエンジンの解説動画]https://youtu.be/hTtWyzAT5uM </br>
-[ミニゲームエンジン内容確認動画]https://youtu.be/BEkCKfG-fzU </br>
-</br>
+# 現在取り組んでいるプログラミング作品への開発Git
 
-### Unityで一人称チェス : [ho66Games_FPSChess](https://github.com/ho6ho6/Chess_FistPerson) </br>
-[一人称チェスゲーム内容確認動画]https://youtu.be/s0ZbeJykjSQ </br>
-[一人称チェス作品解説動画]https://youtu.be/TX8dBKSlUoM </br>
+## 個人制作
+### C++とWin32を使ってゲームエンジン : [ゲームエンジン](https://github.com/ho6ho6/Re_GameEngine) </br>
+
+## Unity
+### オンラインドッジボール : [ドッジボール](https://github.com/ho6ho6/Dogeball) </br>
+
+## 共同制作
+### 花札ポーカー : [花札ポーカー](https://github.com/ryoncy-git/hanafudaPoker) </br>
+
 
 ---
 ---
 
-# ミニゲームエンジン (C++ / Win32 API / DirectX11 / ImGui)
+# ゲームエンジン (C++ / Win32 API / DirectX11 / ImGui)
 
 ## 概要
-本プロジェクトは DirectX11 と C++ を用いて開発した 2D ミニゲームエンジンです。</br>
-ゲーム開発の内部構造を理解することを目的として、エディタ機能・描画・ECSアーキテクチャを実装しました。</br>
-エンジンには以下のエディタ機能を実装しています。</br>
-- Gameビュー
-- Hierarchy
-- Inspector
-- Assetブラウザ
-- Sceneビュー
-Unityのようにオブジェクトをエディタ上で配置・編集できる環境を目標に開発しました。</br>
 
 ## 実際の画面
 
-### 現状-主要Component機能を実装し、Key割り当ての対応を実装した。
-![ゲームエンジン](./img/minigame_engine/minigame_engine10.png)
+## 現状
 
-
-### エディタ機能
-
-#### Hierarchy
-Hierarchyではシーン内の Entity（オブジェクト）一覧を表示します。</br>
-主な機能</br>
-- オブジェクト一覧表示
-- 選択
-エディタ上で選択されたオブジェクトはInspectorに反映されます。</br>
-
-#### Inspector
-Inspectorでは Entityに付属するComponent(Transform,Sprite,Collider など)の情報を表示・編集できます。</br>
-Componentのパラメータを変更すると、ゲーム内のオブジェクトに即時反映されます。</br>
-
-#### Assetブラウザ
-プロジェクトフォルダ内のアセットを表示します。</br>
-特徴</br>
-- フォルダ内のアセットを非同期で読み込み
-- 読み込み中でもエディタ操作を継続可能
-これにより、大量のアセットがある場合でも</br>
-エディタのフリーズを防ぐ設計になっています。</br>
-
-#### Sceneビュー
-Sceneビューでは ゲームオブジェクトの配置やレイアウト編集を行います。</br>
-現在のエンジンでは</br>
-- 背景配置
-- 地形配置
-- オブジェクト配置
-などが可能です。</br>
-
-#### ECSアーキテクチャ
-本エンジンではECS（Entity Component System）を採用しています。</br>
-- Entity:IDのみを持つオブジェクト。
-- Component:Entityに付与されるデータ。
-Transform,Sprite,Physics
-- System,Componentを処理するロジック。
-RenderSystem,MovementSystem </br>
-
-この構造によりデータとロジックの分離拡張性の向上を実現しています。</br>
-
-#### 描画システム
-描画には DirectX11 を使用しています。</br>
-Sprite描画は</br>
-- VertexBuffer
-- Shader
-- Texture
-を使用して実装しています。</br>
-
-基本的な描画フロー</br>
-Update</br>
- ↓</br>
-RenderSystem</br>
- ↓</br>
-Sprite描画</br>
- ↓</br>
-Present</br>
-
-#### 現状
-現時点で以下の機能を実装しています。</br>
-- Sprite描画
-- オブジェクト配置
-- ECSベースのComponent管理
-- エディタUI
-- アセットブラウザ
-- 非同期アセット読み込み
-
-これにより簡単な2Dゲームのステージ作成が可能です。</br>
-
-#### 技術的な工夫
-- ECSによる拡張性のある設計
-- アセット読み込みの非同期化
-- エディタとゲームロジックの分離
-
+## 技術的な工夫
 
 ## 今後の予定
-- 各Component機能を実装し、細かい不具合の修正を行う。</br>
-- ゲームをビルドした際に、実際のゲーム画面となるwindow_gameを実装する。</br>
-
-## 開発Git
-[minigame_engine](https://github.com/ho6ho6/minigame_engine)
-
----
----
-
-# FPS_Chess (Unity)
-
-## 概要
-チェスの駒をFPS視点で操作するアクション×戦略ゲーム。  </br>
-UnityRoomで公開中。チェスのルールとFPS操作を融合した新感覚ゲーム。 </br>
-一人称視点にすることで、プレイヤーが盤面を把握しきれない状況を意図的に作り、思考の仕方や緊張感が変化することを狙い作成。 </br>
-## 実際の画面
-
-### デバック画面
-![FPS_Chess](./img/unity/Chess_Debug.png)
-
-### ルーク視点
-![FPS_Chess](./img/unity/Chess_play1.png)
-
-### キング視点
-![FPS_Chess](./img/unity/Chess_play2.png)
-
-## 技術ポイント
-- Unity + C# による3Dゲーム開発
-- 駒ごとの移動ロジックと攻撃判定の実装
-- プレイヤー視点の切り替えとカメラ制御
-- UI表示（ターン管理、勝敗判定）
-
-## 工夫した点
-- チェスのルールをベースにした独自のゲーム性
-- 駒の種類ごとのスキルや移動制限の設計
-- UnityRoomでの公開を想定した軽量化と操作性の調整
-- ゲーム全体の雰囲気・プレイヤーの気を散らさない程度のBGMの作成
-
-## 今後の改善案
-- マルチプレイ対応（Photonなど）
-- UIの華やかさを追加を検討
-
-## 作成した音源
-[🎵 title.mp3 を聴く](./sound/タイトルBGM.mp3) </br>
-[🎵 game.mp3 を聴く](./sound/対戦BGM.mp3) </br>
-[🎵 result.mp3 を聴く](./sound/結果画面.mp3) </br>
-
-## 開発GitのURL
-[ho66Games_FPSChess](https://github.com/ho6ho6/Chess_FistPerson)
-
-## UnityRoom
-[注意] 作り直した一人称チェスではUnity6で作成していたため、Buildの際にWeb GLが非対応になっており </br>
-アップデートができず、旧作の一人称チェスになっております。 </br>
-Unity 2022年のもので再度作り、Webでも遊べるように現在は、取り組んでいます。 </br>
-[FPS_Chess](https://unityroom.com/games/ho66games_fpschess)
 
 ---
 ---
